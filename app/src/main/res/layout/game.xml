@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fieldButtons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="5"
+    android:padding="20dp"
+    tools:context=".activities.GameActivity">
+
+    <TableRow android:layout_weight="1.33">
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="match_parent"
+        android:layout_weight="1.33">
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+    </TableRow>
+
+    <TableRow android:layout_weight="1.33">
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+
+        <ImageView
+
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/image_border" />
+    </TableRow>
+
+    <TextView
+        android:id="@+id/TurnText"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.5"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/restartButton"
+        android:layout_weight="0.25"
+        android:onClick="onRestartButtonClick"
+        android:text="Restart" />
+
+    <Button
+        android:layout_weight="0.25"
+        android:onClick="onReturnButtonClick"
+        android:text="back" />
+
+</TableLayout>
